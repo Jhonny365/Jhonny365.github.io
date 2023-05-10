@@ -16,9 +16,9 @@ input{
     background-color: blue;
     display: block;
     position: absolute;
-    top: 55%;
+    margin: 50%;
     outline:solid white 3px;
-    left: 50%;
+    
 }
 
 #imagen{
