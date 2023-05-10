@@ -8,10 +8,6 @@ function img(){
   let imagen= document.createElement("img")
   imagen.src= "css/li.png";
   imagen.id= "imagen"
-  // const bodySize = document.querySelector('body')
-
-  // let y = Math.floor (Math.random()*bodySize.clientWidth)*0.9;
-  // let x = Math.floor (Math.random()*bodySize.clientWidth)*0.8;
   let y = Math.floor()*100;
   let x = Math.floor()*100;
   imagen.style.rotate= Math.floor (Math.random()*360) + "deg";
