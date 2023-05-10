@@ -16,7 +16,10 @@ function img(){
   imagen.height= imagen.width;
   
   if ( (y >= 45 && y <= 50) && (x >= 51 && x <= 55) ) {
-    console.log("1")
+
+    let time = 0
+    console.log(time)
+    time = time + 1
 
     imagen.width= 10;
     imagen.height= imagen.width;
