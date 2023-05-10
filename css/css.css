@@ -16,7 +16,8 @@ input{
     background-color: blue;
     display: block;
     position: absolute;
-    margin: 50%;
+    top: 50%;
+    left: 50%;
     outline:solid white 3px;
     
 }

@@ -1,6 +1,6 @@
 
 function ar() {
-  setInterval(img, 50)
+  setInterval(img, 1000)
 }
 
 function img(){  
@@ -25,10 +25,13 @@ function img(){
     imagen.height= imagen.width;
     imagen.style.border='solid blue 2px'
     body.appendChild(imagen)
+    imagen.style.top= y + "%"
+    imagen.style.left= x + "%";
     
   }
   else{
-    y= y + "%"
-    x= x + "%"
+    imagen.style.top= y + "%"
+    imagen.style.left= x + "%";
+    body.appendChild(imagen)
   }
 }
